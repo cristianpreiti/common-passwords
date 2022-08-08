@@ -1,0 +1,21 @@
+{
+  "name": "common-passwords",
+  "version": "1.0.0",
+  "description": "CommonPasswords is a list of common passwords implemented to provide NIST best practices of preventing usage of the 100,000 most used passwords.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "mocha ./tests"
+  },
+  "keywords": [
+    "common",
+    "passwords"
+  ],
+  "author": "Cristian Preiti <cristianpreiti@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bloom-filters": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
