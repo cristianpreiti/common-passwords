@@ -1,10 +1,17 @@
 {
   "name": "common-passwords",
   "version": "1.0.0",
-  "description": "CommonPasswords is a list of common passwords implemented to provide NIST best practices of preventing usage of the 100,000 most used passwords.",
+  "description": "Prevent the use of insecure passwords.",
   "main": "./src/index.js",
+  "files": [
+    "./src"
+  ],
   "scripts": {
     "test": "mocha ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianpreiti/common-passwords.git"
   },
   "keywords": [
     "common",
@@ -12,6 +19,10 @@
   ],
   "author": "Cristian Preiti <cristianpreiti@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cristianpreiti/common-passwords/issues"
+  },
+  "homepage": "https://github.com/cristianpreiti/common-passwords#readme",
   "dependencies": {
     "bloom-filters": "^3.0.0"
   },
